@@ -11,5 +11,8 @@ RUN \
     sudo rm -rf /tmp/rippled
 VOLUME /data
 EXPOSE 51235
+EXPOSE 5006
+EXPOSE 6006
+EXPOSE 5005
 CMD /usr/bin/rippled
 
