@@ -9,5 +9,7 @@ RUN \
     scons build/rippled && \
     sudo mv build/rippled /usr/bin && \
     sudo rm -rf /tmp/rippled
+VOLUME /data
+EXPOSE 51235
 CMD /usr/bin/rippled
 
