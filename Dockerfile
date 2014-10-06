@@ -14,5 +14,5 @@ EXPOSE 51235
 EXPOSE 5006
 EXPOSE 6006
 EXPOSE 5005
-CMD /usr/bin/rippled
+CMD ["/usr/bin/rippled", "--conf", "/data/rippled.cfg"]
 
